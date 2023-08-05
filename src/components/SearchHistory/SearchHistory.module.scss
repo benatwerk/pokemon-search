@@ -1,0 +1,30 @@
+.wrapper {
+    h2 {
+        font-size: 1em;
+        margin: 0;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+
+        li {
+            padding: 0.5em;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+
+            &:nth-child(odd) {
+                background-color: #f8f9fa;
+            }
+
+            &:nth-child(even) {
+                background-color: #e9ecef;
+            }
+
+            &:hover {
+                background-color: #dee2e6;
+            }
+        }
+    }
+}
