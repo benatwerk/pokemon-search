@@ -30,6 +30,8 @@ The tests include:
 
 ## Uncompleted Parts
 
+I try to stick to the time constraints for assessment projects. I think it makes these projects more fun and challenging, which in turn makes the assessment more accurate. I did go over a bit due to some issues with my local environment regarding the tests, and this README was entirely done in overtime.
+
 The UI is pretty simple and could use some polish and better design. I'm not that familiar with Pokemon so I wasn't sure what's interesting about them to display so I just covered the basics as a proof of concept. The way it's built it'd be easy to add any other sections to make it more complete. I didn't get around to adding fetching other stats through the endpoints the API provides, but that would be something else I think would be useful. Had I done that I would have added them into a tooltip on hover, I think.
 
 I could have also blocked search while in a loading state. I would have just pulled in the pokemon state and then set a class on the form and in the css used pointer-event: none.
